@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form & Input</title>
+</head>
+
+<body>
+  <form action="process.php">
+    <div>
+      <label for="name">Name</label><br>
+      <input type="text" id="name" name="name" placeholder="Firstname Lastname">
+    </div>
+    <div>
+      <label for="email">Email</label><br>
+      <input type="email" id="email" name="email" placeholder="xxx@gmail.com">
+    </div>
+    <div>
+      <label for="message">Message</label><br>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+      <label for="sex">Sex</label>
+      <select name="sex" id="sex">
+        <option value="male">Male</option>
+        <option value="female" selected>Female</option>
+        <option value="others">Ohters</option>
+      </select>
+    </div>
+    <div>
+      <label for="age">Age</label><br>
+      <input type="number" name="age" id="age">
+    </div>
+    <div>
+      <label for="birthdate">BirthDate</label><br>
+      <input type="date" name="birthdate" id="birthdate">
+    </div>
+    <div>
+      <label for="mambership">Mambership</label>
+      <input type="radio" name="membership" value="simpal" id="membership">Simpal
+      <input type="radio" name="membership" value="standard" id="membership" checked>Standard
+      <input type="radio" name="membership" value="super" id="membership">Super
+    </div>
+    <div>
+      <label for="like">I like...</label>
+      <input type="checkbox" name="like" value="bike" id="like">Bike
+      <input type="checkbox" name="like" value="milk" id="like" checked>Milk
+      <input type="checkbox" name="like" value="suger" id="like">Suger
+    </div>
+    <!-- <input type="submit" value="Submit"><br> -->
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+
+</body>
+
+</html>
