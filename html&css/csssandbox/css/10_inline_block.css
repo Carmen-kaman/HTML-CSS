@@ -1,0 +1,22 @@
+li{
+  display: inline;
+}
+
+li a{
+  padding: 20px;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+
+.box{
+  width: 24%;
+  display: inline-block;
+  box-sizing: border-box;
+  background: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 15px;
+
+}
