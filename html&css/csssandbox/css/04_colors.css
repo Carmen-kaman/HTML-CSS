@@ -1,0 +1,14 @@
+h1 {
+  /* color name */
+  color: violet;
+}
+
+h2 {
+  /* RGB */
+  color: rgb(111, 20, 150);
+}
+
+h3 {
+  /* Hex */
+  color: #7C1717;
+}
