@@ -1,0 +1,35 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover{
+  color: coral;
+  text-decoration: underline;
+}
+
+/* a:visited{
+  color: rebeccapurple;
+} */
+a:active{
+  color: deeppink;
+}
+/* Button Stylinf */
+.btn {
+  background: #4c6ca0;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 10xp 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: #fff;
+  background-color: #250ef1;
+}
