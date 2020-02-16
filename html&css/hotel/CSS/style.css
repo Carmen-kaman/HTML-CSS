@@ -232,6 +232,32 @@ p {
   opacity: 0.9;
 }
 
+
+/* contect form */
+#contect-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contect-form input, 
+#contect-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1xp #ddd solid;
+}
+
+#contect-form textarea{
+  height: 200px;
+}
+
+#contect-form input:focus, 
+#contect-form textarea:focus{
+  outline: none;
+  border-color: #f7c08a;
+}
+
+
+
 /* Main footer */
 #main-footer {
   text-align: center;
