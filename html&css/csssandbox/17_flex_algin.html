@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Algin</title>
+
+  <style>
+    .container{
+      background: #555;
+      display: flex;
+      height: 600px;
+      /* justify-content: flex-start; */
+      justify-content: space-around;
+      /* 
+      option:
+      flex-start;
+      flex-end;
+      center;
+      space-evenly;
+      space-around;
+      space-between; 
+      */
+      flex-wrap: wrap;
+      /* align-content: center; */
+    }
+    .item{
+      background: #f4f4f4;
+      border: #ccc solid 1px;
+      text-align: center;
+      padding: 1rem;
+      margin: 0.5rem;
+      flex-basis: 200px;
+      height: 50px;
+      /* flex-basis == width */
+      /* align-items: flex-start; */
+      /* option:
+      flex-start;
+      flex-end;
+      center;
+      baseline;
+      stretch; */
+    }
+
+    .item-2{
+      align-self: flex-end;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="item item-1"><h3>Item 1</h3></div>
+    <div class="item item-2"><h3>Item 2</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    <div class="item item-3"><h3>Item 3</h3></div>
+    
+    
+  
+</body>
+</html>
