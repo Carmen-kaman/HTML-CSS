@@ -43,6 +43,11 @@ p{
   color: #fff;
 }
 
+.bg-primary{
+  background: #93cb52;
+  color: #fff;
+}
+
 .list{
   margin: 0.5rem 0;
   list-style: none;
@@ -154,7 +159,7 @@ p{
   padding: 0 2rem;
   /* overlay */
   position: absolute;
-  top: 60px;
+  top: 65px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -203,4 +208,27 @@ p{
   display: block;
   margin: auto;
   width: 60%;
+}
+
+/* section contect */
+#contect{
+  display: flex;
+}
+
+#contect .map, #contect .contect-form{
+  flex: 1;
+}
+
+#contect .contect-form .form-group{
+  margin: 0.75rem;
+}
+
+#contect .contect-form label{
+  display: block;
+}
+
+#contect .contect-form input,
+#contect .contect-form textarea{
+  width: 100%;
+  padding: 0.5rem;
 }

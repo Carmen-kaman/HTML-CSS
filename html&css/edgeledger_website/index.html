@@ -77,7 +77,8 @@
     <div class="who-img"></div>
     <div class="who-text bg-dark p-2">
       <h2 class="m-heading"><span class="text-primary">Who </span>We Are</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia doloremque libero necessitatibus eos consectetur sapiente.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia doloremque libero necessitatibus eos consectetur
+        sapiente.</p>
       <h3>Our Team</h3>
       <ul class="list">
         <li>Mark Smith: CEO</li>
@@ -86,7 +87,7 @@
         <li>Janet Williams: Investment Manager</li>
         <li>Kara Jackson: Senior Accountant</li>
       </ul>
-    </div> 
+    </div>
   </section>
 
   <section id="client" class="py-1">
@@ -103,6 +104,54 @@
       </div>
     </div>
   </section>
+
+  <!-- Section: Contect -->
+  <section id="contect">
+    <div class="contect-form bg-primary p-2">
+      <h2 class="m-heading">Contect Us</h2>
+      <p>Please use the form below to contact us</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="Enter Name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" placeholder="Enter E-mail">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea type="text" name="message" id="message" placeholder="Enter Message" rows="5" cols="10"></textarea>
+        </div>
+
+        <input type="submit" value="Send" class="btn btn-dark">
+
+      </form>
+    </div>
+
+    <div class="map"></div>
+  </section>
+
+  <footer id="main-footer" class="bg-dark text-center py-1">
+    <div class="container">
+
+      <p>Copyright &copy; 2020, EdgeLadger, All Rights Reseved</p>
+    </div>
+  </footer>
+
+  <!-- Google Map -->
+  <script src="/JS/main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoZg2Es_GrQHZf_52j2-xZ3cTfBCR0HII&callback=initMap"
+    async defer></script>
+
 </body>
+
 
 </html>
