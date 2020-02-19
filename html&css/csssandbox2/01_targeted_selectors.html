@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* all p */
+    div p {
+      background: #ddd;
+    }
+
+    /* direct child */
+    div > p {
+      background: palevioletred;
+    }
+
+    /* Directly After */
+
+    div + p {
+      background: darkolivegreen;
+      color: #fff;
+    }
+
+    /* By attribute */
+    a[target]{
+      background: darkred;
+      color: white;
+    }
+
+    a[target='_self']{
+      background: yellow;
+      color: black
+    }
+
+    /* specific attribute values */
+    /* input{
+      width: 100%;
+      margin-bottom: 5px;
+    } */
+
+    input[type='text'],input[type='email']{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+  </style>
+  <title>Targeted Scelectors</title>
+</head>
+<body>
+  <div>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates, sit.</p>
+
+    <ul>
+      <li>Item 1</li>
+      <li><p>Item 2</p></li>
+      <li>Item 3</li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, nobis?</p>
+  </div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, praesentium!</p>
+
+  <a href="#">Page1</a>
+  <a href="#" target="_self">Page2</a>
+  <a href="http://google.com" target="_blank">Google</a>
+
+  <br><br>
+
+  <form>
+    <input type="text" placeholder="name">
+    <input type="email" placeholder="xxx@gmail.com">
+    <input type="submit" value="submit">
+  </form>
+</body>
+</html>
