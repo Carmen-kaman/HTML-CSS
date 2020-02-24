@@ -93,3 +93,14 @@ body{
   padding: 0 2rem;
   background-color: coral;
 }
+
+@media (max-width: 600px){
+  #navbar ul li{
+    display: block;
+  }
+
+  #navbar ul li:hover ul{
+    width: 100%;
+    position: relative;
+  }
+}
