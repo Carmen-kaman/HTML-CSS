@@ -8,5 +8,41 @@
 body{
   background: $light-color;
   color: $dark-color;
-  font-family: $font-stack;;
+  font-family: $font-stack;
+  line-height: 1.5;
+}
+
+header{
+  background: $dark-color;
+  color: $light-color;
+  padding: 1rem;
+
+  h1{
+    text-align: center;
+  }
+}
+
+.section {
+  padding: 3rem;
+
+  h3 {
+    font-size: 3rem;
+  }
+
+  &-a{
+    background:$primary-color;
+    color:#fff;
+  }
+  &-b{
+    background:$secondary-color;
+    color:#fff;
+  }
+}
+
+a{
+  color: #333;
+  text-decoration: none;
+  &:hover{
+    color: coral;
+  }
 }
