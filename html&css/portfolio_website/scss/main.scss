@@ -351,7 +351,6 @@ img{
 }
 
 
-
 // footer
 #main-footer{
   background: $dark-color;
@@ -380,3 +379,6 @@ img{
     }
   }
 }
+
+// import media query
+@import 'media';
